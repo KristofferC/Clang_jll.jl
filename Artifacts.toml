@@ -1,0 +1,25 @@
+[[Clang]]
+arch = "x86_64"
+git-tree-sha1 = "762ecfe99701feca80ccc50bad60ddd8e6d655c9"
+libc = "glibc"
+os = "linux"
+
+    [[Clang.download]]
+    sha256 = "f7d232f0e137a32ea1d79ee62bb9ce05b155a1fb4eea4340f5b5794a4c205ed9"
+    url = "https://github.com/KristofferC/Clang_jll.jl/releases/download/Clang-v8.0.1+0/Clang.v8.0.1.x86_64-linux-gnu.tar.gz"
+[[Clang]]
+arch = "x86_64"
+git-tree-sha1 = "eb3bd72f12023940f7ed753b33b404869e5a58d8"
+os = "macos"
+
+    [[Clang.download]]
+    sha256 = "b40862b224e3349dd677dbca3224ff984b1e8502890b683a75a9703284f5c042"
+    url = "https://github.com/KristofferC/Clang_jll.jl/releases/download/Clang-v8.0.1+0/Clang.v8.0.1.x86_64-apple-darwin14.tar.gz"
+[[Clang]]
+arch = "x86_64"
+git-tree-sha1 = "d63f867ca6c5e7b02d769f5cb2c3d11d5effccfe"
+os = "windows"
+
+    [[Clang.download]]
+    sha256 = "e6307d2c22daa702d1c4a7a95ecbfa3c176e58da884d4a688f0358ae9bf08627"
+    url = "https://github.com/KristofferC/Clang_jll.jl/releases/download/Clang-v8.0.1+0/Clang.v8.0.1.x86_64-w64-mingw32.tar.gz"
